@@ -58,19 +58,6 @@ object Time1 extends {
    var highlights:Set[Int]=Set.empty //flot doesn't expose list of current highlights, so must track them 
                        
    def listener2(event:FlotEvent,pos:Pos,item:Item)={
-//      println("list2")
-//      println(js.JSON.stringify(event))
-//      println("pos="+js.JSON.stringify(pos))
-//      println(pos.x)
-//      println(pos.y)
-//      println(js.JSON.stringify(item))
-//      println(item.dataIndex)
-//      println(item.datapoint)
-//      println(item.series.label)
-      
-      println(js.JSON.stringify(currentPlot.getAxes()))
-      
-      //println(currentPlot.getPlotOffset().left)
       
       if (item!=null){
         if (!highlights(item.dataIndex)){
