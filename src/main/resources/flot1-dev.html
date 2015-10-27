@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Scala.js+Flot sample application!</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+  <style type="text/css">
+  body{
+   font-family: roboto, arial
+  }
+  </style>
+</head>
+<body>
+
+<!--  flot start-->
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/flot/0.8.3/jquery.flot.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/flot/0.8.3/excanvas.min.js'></script>
+
+<p>Flot1 demo</p>
+<div id="placeholder"  style="width:800px;height:400px"></div>
+<div id="placeholder2"  style="width:800px;height:400px"></div>
+<script type="text/javascript" src="../scala-js-flot-examples-fastopt.js"></script>
+<script>
+
+<!--  flot end -->
+
+    example.Flot1().main('#placeholder')    
+    example.Flot1().main2('#placeholder2')
+</script>
+
+</body>
+</html>
