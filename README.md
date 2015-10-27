@@ -3,6 +3,10 @@
 
 ## Scala.js bindings for Flot and example applications 
 
+To use as a library, just pull in from
+
+[https://jitpack.io/#fancellu/scalajs-flot](https://jitpack.io/#fancellu/scalajs-flot)
+
 [![Build Status](https://travis-ci.org/fancellu/scalajs-flot.svg?branch=master)](https://travis-ci.org/fancellu/scalajs-flot)
 
 Example apps showing the use of [Scala.js](http://www.scala-js.org/) with [Flot](http://www.flotcharts.org//) 
