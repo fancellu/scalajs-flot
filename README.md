@@ -3,6 +3,8 @@
 
 ## Scala.js bindings for Flot and example applications 
 
+[![Build Status](https://travis-ci.org/fancellu/scalajs-flot.svg?branch=master)](https://travis-ci.org/fancellu/scalajs-flot)
+
 Example apps showing the use of [Scala.js](http://www.scala-js.org/) with [Flot](http://www.flotcharts.org//) 
 The bindings for Flot are in `com.felstar.scalajs.flot`
 
