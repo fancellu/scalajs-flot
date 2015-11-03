@@ -10,19 +10,19 @@ To use as a library, just pull in from
 [![Build Status](https://travis-ci.org/fancellu/scalajs-flot.svg?branch=master)](https://travis-ci.org/fancellu/scalajs-flot)
 
 Example apps showing the use of [Scala.js](http://www.scala-js.org/) with [Flot](http://www.flotcharts.org//) 
-The bindings for Flot are under core `com.felstar.scalajs.flot`
+The bindings for Flot are in `com.felstar.scalajs.flot`
 
 ## Get started
 
-To get started, run `sbt ~example/fastOptJS` in this root. 
+To get started, run `sbt ~fastOptJS` in this example project. 
 
 Obviously you need to have [SBT](http://www.scala-sbt.org/) installed. 
 
 This should
-download dependencies and prepare the relevant javascript files. It then kicks off a web server to serve the html and JS files. The example files are under example.
+download dependencies and prepare the relevant javascript files. It then kicks off a web server to serve the html and JS files.
 
 If you open
-[localhost:12345/example/target/scala-2.11/classes/flot1-dev.html](http://localhost:12345/example/target/scala-2.11/classes/flot1-dev.html) in your browser, it will show you a sample app, drawing 2 graphs. Do open the Console to see debug messages. There are also 2 other code samples.
+[localhost:12345/target/scala-2.11/classes/flot1-dev.html](http://localhost:12345/target/scala-2.11/classes/flot1-dev.html) in your browser, it will show you a sample app, drawing 2 graphs. Do open the Console to see debug messages. There are also 2 other code samples.
 
 ## Live Demo
 
@@ -35,7 +35,7 @@ If you open
 
 ## Development
 
-If you change your source HTML (inside `/example/src/main/resources`) or Scala (inside `example/src/main/scala/example`), sbt will recompile as needed. 
+If you change your source HTML (inside `/src/main/resources`) or Scala (inside `/src/main/scala/example`), sbt will recompile as needed. 
 You then just have to refresh the page to see the new version. Hopefully having an example application will make it clearer on how to use Flot from Scala, i.e. monkey see, monkey do.
 
 ## The optimized version
