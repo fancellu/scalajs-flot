@@ -7,4 +7,8 @@ libraryDependencies ++= Seq(
   "be.doeraene" %%% "scalajs-jquery" % "0.8.1" 
 )
 
+publishArtifact in packageDoc:= false
+
+publishArtifact in packageSrc:= false
+
 
