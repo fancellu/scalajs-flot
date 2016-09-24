@@ -4,6 +4,6 @@ workbenchSettings
 
 bootSnippet := "example.T1().main(document.getElementById('mydiv'));"
 
-scalaVersion := "2.11.7"
+scalaVersion := "2.11.8"
 
 publishArtifact:= false

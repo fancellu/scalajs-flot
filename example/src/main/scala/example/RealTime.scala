@@ -43,6 +43,6 @@ object RealTime extends {
       currentPlot.draw()
     }
     
-    dom.setInterval(run _, 100)    
+    dom.window.setInterval(run _, 100)    
   }
 }
